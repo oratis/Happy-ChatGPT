@@ -11,7 +11,6 @@ export const generatePayload = (apiKey: string, messages: ChatMessage[]): Reques
     messages.unshift({
       role: 'system',
       content: '你是一个供建筑工程师查询的机器人，工程师会输入一个点的坐标，你需要说明这个坐标具体的位置和规定。
-
 数据的单位为米；
 P1为“点1”；
 X是纵向；Y是横向；H是高度
