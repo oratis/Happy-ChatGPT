@@ -231,7 +231,7 @@ export default () => {
             ref={inputRef!}
             disabled={systemRoleEditing()}
             onKeyDown={handleKeydown}
-            placeholder="准备好了吗，朋友..."
+            placeholder="请输入要查询的点，格式为 x=，y=，h="
             autocomplete="off"
             autofocus
             onInput={() => {
