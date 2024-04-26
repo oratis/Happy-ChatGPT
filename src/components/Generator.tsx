@@ -242,7 +242,7 @@ export default () => {
             class="gen-textarea"
           />
           <button onClick={handleButtonClick}  gen-slate-btn>
-            查询
+            查
           </button>
           <button title="Clear" onClick={clear}  gen-slate-btn>
             <IconClear />
